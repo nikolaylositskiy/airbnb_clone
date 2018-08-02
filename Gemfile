@@ -8,6 +8,8 @@ end
 gem 'devise'
 gem 'figaro'
 gem 'jbuilder', '~> 2.5'
+gem 'omniauth'
+gem 'omniauth-facebook'
 gem 'puma', '~> 3.7'
 gem 'rails', '~> 5.1.5'
 gem 'sqlite3'
