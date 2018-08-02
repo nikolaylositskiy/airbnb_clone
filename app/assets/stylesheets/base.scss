@@ -1,0 +1,96 @@
+body {
+  background-color: #f8f8f8;
+  color: #565a5c;
+  font-family: 'Varela Round', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+a {
+  color: $link-color;
+}
+
+.container {
+  width: 80%;
+}
+
+.text-babu,
+.icon-babu {
+  color: #00a699;
+}
+
+// Navbars
+.navbar-default {
+  background-color: #fff;
+
+  .navbar-brand {
+    color: #ff5a5f;
+    font-size: 2em;
+    font-weight: 400;
+  }
+}
+
+// Buttons
+.btn-block {
+  display: block;
+  white-space: normal;
+  width: 100%;
+}
+
+.btn {
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  padding: 9px 27px;
+
+  &.btn-default {
+    background: white;
+    border-color: #c4c4c4;
+    border-radius: 2px;
+    color: #484848;
+    margin-top: 10px;
+    padding: 10px 0;
+    width: 100%;
+  }
+
+  &.btn-normal {
+    background-color: #ff5a5f;
+    border: 1px solid #ff5a5f;
+
+    &:active {
+      background-color: #e00007;
+      border-color: #e00007;
+      outline: none;
+    }
+  }
+
+  &.btn-form {
+    background-color: #00a699;
+    border: 1px solid #00a699;
+
+    &:active {
+      background-color: #066165;
+      border-color: #066165;
+      outline: none;
+    }
+  }
+
+  &.btn-facebook {
+    background-color: #3b5998;
+    border: 1px solid #3b5998;
+
+    &:active {
+      background-color: #2d467b;
+      border-color: #2d467b;
+      outline: none;
+    }
+  }
+
+  &:hover,
+  &:focus {
+    color: #fff;
+  }
+}
+
+.btn-small {
+  margin-top: 15px;
+  padding: 5px 15px;
+}
